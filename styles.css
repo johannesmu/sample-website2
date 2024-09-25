@@ -1,0 +1,13 @@
+body {
+    background-color: #55b0b7;
+    margin: 0px;
+    background-image: url("simon-berger-twukN12EN7c-unsplash.jpg");
+    background-size: cover;
+}
+header {
+    background-color: #1e7676;
+    padding: 15px;
+}
+.logo {
+    width: 80px;
+}
