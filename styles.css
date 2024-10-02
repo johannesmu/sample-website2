@@ -3,11 +3,25 @@ body {
     margin: 0px;
     background-image: url("simon-berger-twukN12EN7c-unsplash.jpg");
     background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
 }
 header {
     background-color: #1e7676;
-    padding: 15px;
 }
 .logo {
-    width: 80px;
+    width: 60px;
+    padding: 15px;
+}
+.main-navigation {
+    background-color: #191919;
+}
+.main-navigation a {
+    color:azure;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+.main-navigation a:hover {
+    background-color: #737373;
+    color: #151515;
 }
