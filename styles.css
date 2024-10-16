@@ -87,3 +87,25 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
+.main-footer {
+    background-color: #333333;
+    min-height: 12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+.social a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.copyright {
+    margin: 0px;
+    color: white;
+}
