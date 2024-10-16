@@ -57,8 +57,12 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1000px;
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em; */
+    /* margin: 2em auto 2em auto; */
+    margin: 2em auto;
     gap: 20px;
 }
 .card {
@@ -70,4 +74,16 @@ header {
     aspect-ratio: 1/1;
     object-fit: cover;
     max-width: 100%;
+}
+.card-content {
+    padding: 1em;
+}
+.card-content a {
+    display: block;
+    background-color: black ;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
