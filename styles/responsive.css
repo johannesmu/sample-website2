@@ -1,0 +1,25 @@
+/* media query */
+@media screen and ( max-width: 576px ) {
+    .card {
+        min-width: 100%;
+    }
+    .main-navigation {
+        flex-direction: column;
+        min-width: 100%;
+        align-items: flex-start;
+    }
+    .main-navigation a {
+        display: block;
+    }
+    .dropdown {
+        /* padding: 15px; */
+        position: static;
+        min-width: 100%;
+    }
+    .dropdown-menu {
+        position: static;
+    }
+    #nav-button {
+        display: block;
+    }
+}
